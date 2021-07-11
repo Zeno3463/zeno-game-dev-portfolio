@@ -1,0 +1,54 @@
+.gameList {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+}
+
+.gameList img {
+  opacity: 0;
+  width: 20rem;
+  border: 5px solid #267373;
+  margin: 0.5rem;
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+  -webkit-animation: img-appear 1s ease-in-out forwards;
+          animation: img-appear 1s ease-in-out forwards;
+}
+
+.gameList img:hover {
+  -webkit-transform: scale(1.05) rotate(1deg);
+          transform: scale(1.05) rotate(1deg);
+}
+
+@-webkit-keyframes img-appear {
+  0% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  100% {
+    opacity: 1;
+    -webkit-box-shadow: 0px 0px 10px #000000;
+            box-shadow: 0px 0px 10px #000000;
+  }
+}
+
+@keyframes img-appear {
+  0% {
+    opacity: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  100% {
+    opacity: 1;
+    -webkit-box-shadow: 0px 0px 10px #000000;
+            box-shadow: 0px 0px 10px #000000;
+  }
+}
+/*# sourceMappingURL=Portfolio.module.css.map */

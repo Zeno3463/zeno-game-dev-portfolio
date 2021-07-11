@@ -1,0 +1,42 @@
+.chart {
+	position: absolute;
+	left: 10rem;
+	top: 10rem;
+	padding: 2rem;
+	animation: radar-graph-shape-appear ease-in-out 3s forwards;
+}
+
+.axis {
+	stroke: black;
+	opacity: 0.7;
+}
+
+.scale {
+	stroke: black;
+	opacity: 0.7;
+}
+
+.shape {
+	fill-opacity: 0.6;
+	stroke: black;
+	transform: scale(0);
+	animation: radar-graph-shape-appear ease-in-out 3s forwards;
+	animation-delay: 2s;
+	&:hover {
+		fill-opacity: 0.8;
+	}
+}
+
+.caption {
+	font-size: 0.6rem;
+	stroke: #8cb9b9;
+	transition: all ease-in-out 100ms;
+	&:hover {
+		font-size: 0.8rem;
+	}
+}
+
+@keyframes radar-graph-shape-appear {
+	0% { transform: scale(0) }
+	100% { transform: scale(1) }
+}

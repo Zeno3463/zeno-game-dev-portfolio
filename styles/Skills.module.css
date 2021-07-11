@@ -1,0 +1,67 @@
+.chart {
+  position: absolute;
+  left: 10rem;
+  top: 10rem;
+  padding: 2rem;
+  -webkit-animation: radar-graph-shape-appear ease-in-out 3s forwards;
+          animation: radar-graph-shape-appear ease-in-out 3s forwards;
+}
+
+.axis {
+  stroke: black;
+  opacity: 0.7;
+}
+
+.scale {
+  stroke: black;
+  opacity: 0.7;
+}
+
+.shape {
+  fill-opacity: 0.6;
+  stroke: black;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-animation: radar-graph-shape-appear ease-in-out 3s forwards;
+          animation: radar-graph-shape-appear ease-in-out 3s forwards;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.shape:hover {
+  fill-opacity: 0.8;
+}
+
+.caption {
+  font-size: 0.6rem;
+  stroke: #8cb9b9;
+  -webkit-transition: all ease-in-out 100ms;
+  transition: all ease-in-out 100ms;
+}
+
+.caption:hover {
+  font-size: 0.8rem;
+}
+
+@-webkit-keyframes radar-graph-shape-appear {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes radar-graph-shape-appear {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/*# sourceMappingURL=Skills.module.css.map */

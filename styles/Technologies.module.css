@@ -1,0 +1,96 @@
+.list {
+  position: absolute;
+  left: 10rem;
+  top: 10rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  -ms-grid-rows: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+}
+
+.list a {
+  text-decoration: none;
+}
+
+.list a .element {
+  color: black;
+  padding: 1rem;
+  background-color: #045159;
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: tech-appear ease-in-out 200ms forwards;
+          animation: tech-appear ease-in-out 200ms forwards;
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+}
+
+.list a .element:hover {
+  background-color: #267373;
+  -webkit-box-shadow: 0px 0px 10px #000000;
+          box-shadow: 0px 0px 10px #000000;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.list a .element img {
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.list a .element h1 {
+  font-size: 1rem;
+}
+
+.list a .element p {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.list a .element div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  background-color: #174b4b;
+}
+
+.list a .element div span {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 0%;
+  padding: 1px;
+  background-color: #6CD9C5;
+}
+
+@-webkit-keyframes tech-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tech-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=Technologies.module.css.map */

@@ -1,0 +1,91 @@
+.header {
+  position: absolute;
+  top: 0;
+  margin: 3rem;
+  margin-left: 10rem;
+}
+
+.header .title {
+  font-size: 4rem;
+  font-weight: 1000;
+  margin: 0%;
+  color: #045159;
+  text-shadow: none;
+  -webkit-animation: text-move 1s ease-in-out forwards;
+          animation: text-move 1s ease-in-out forwards;
+}
+
+.header .description {
+  color: white;
+  margin: 0%;
+  font-family: 'Pridi', serif;
+  -webkit-animation: description-appear 1s ease-in-out forwards;
+          animation: description-appear 1s ease-in-out forwards;
+}
+
+.header .description a {
+  color: #6CD9C5;
+}
+
+@-webkit-keyframes description-appear {
+  0% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 3px 3px 5px black;
+  }
+}
+
+@keyframes description-appear {
+  0% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 3px 3px 5px black;
+  }
+}
+
+@-webkit-keyframes text-move {
+  0% {
+    color: #045159;
+    text-shadow: none;
+  }
+  20% {
+    text-shadow: none;
+    color: #045159;
+  }
+  70% {
+    text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
+    color: #6CD9C5;
+  }
+}
+
+@keyframes text-move {
+  0% {
+    color: #045159;
+    text-shadow: none;
+  }
+  20% {
+    text-shadow: none;
+    color: #045159;
+  }
+  70% {
+    text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
+    color: #6CD9C5;
+  }
+}
+/*# sourceMappingURL=Templates.module.css.map */
