@@ -45,7 +45,8 @@
 
 .list a .element img {
   width: 5rem;
-  border-radius: 50%;
+  height: 5.6rem;
+  background-color: #045159;
 }
 
 .list a .element h1 {

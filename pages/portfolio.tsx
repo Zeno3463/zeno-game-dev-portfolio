@@ -2,33 +2,38 @@ import React, { useState } from 'react'
 import template from "../styles/Templates.module.css";
 import style from "../styles/Portfolio.module.css";
 import Image from "next/image";
-import test from "../public/ZenoDev.png"
+import neonIcon from "../public/neon_icon.png";
+import NFTDIcon from "../public/never_fear_the_dark_icon.png";
+import polymersIcon from "../public/polymers_icon.png";
+import torchureIcon from "../public/torchure_icon.png";
+import zombyIcon from "../public/zomby_icon.png";
+import DPTGIcon from "../public/dont_play_this_game_icon.png";
 
 export default function portfolio() {
 
 	const games = [
 		{
+			img: neonIcon,
 			url: "https://zenogamedev.itch.io/geojam",
-			img: "https://img.itch.zone/aW1hZ2UvOTYzODM5LzU1MDkwNDEucG5n/250x600/p0c6Wd.png",
 		},
 		{
-			img: "https://img.itch.zone/aW1nLzYxOTg5NjEucG5n/original/OPPXmU.png",
+			img: torchureIcon,
 			url: "https://zenogamedev.itch.io/gmtk-game-jam",
 		},
 		{
-			img: "https://img.itch.zone/aW1hZ2UvODk2NDA0LzUwNzExMzAucG5n/original/RESe3N.png",
+			img: zombyIcon,
 			url: "https://zenogamedev.itch.io/zomby",
 		},
 		{
-			img: "https://img.itch.zone/aW1hZ2UvODMwNTAwLzQ2NjE4MDgucG5n/250x600/WbwvpS.png",
+			img: polymersIcon,
 			url: "https://zenogamedev.itch.io/polymers",
 		},
 		{
-			img: "https://img.itch.zone/aW1nLzQ3NjkxODkucG5n/315x250%23c/4zDb%2Fw.png",
+			img: DPTGIcon,
 			url: "https://zenogamedev.itch.io/dont-play-this-game",
 		},
 		{
-			img: "https://img.itch.zone/aW1nLzU4MTM5ODIucG5n/315x250%23c/%2F2Xe%2BT.png",
+			img: NFTDIcon,
 			url: "https://zenogamedev.itch.io/never-fear-the-dark",
 		},
 	];
@@ -47,8 +52,8 @@ export default function portfolio() {
 			</div>
 			<div className={style.gameList}>
 				{games.map((e, i) => 
-					<a href={e.url} target="_blank" rel="noreferrer" key={e.url}>
-						<Image src={test} alt="f" />
+					<a href={e.url} target="_blank" rel="noreferrer" key={e.url} style={{animationDuration: `${i * 0.5+1}s`}}>
+						<Image src={e.img} alt="game img" className={style.img} />
 					</a>
 				)}
 			</div>
