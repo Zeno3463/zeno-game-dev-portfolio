@@ -12,35 +12,30 @@ export default function technologies() {
 		{
 			name: "GODOT",
 			url: "https://godotengine.org/",
-			img: godotIcon,
 			familiarity: 90,
 			performance: 95,
 		},
 		{
-			name: "BOSCA",
+			name: "BOSCA CEOIL",
 			url: "https://boscaceoil.net/",
-			img: godotIcon,
 			familiarity: 90,
 			performance: 50,
 		},
 		{
 			name: "LMMS",
 			url: "https://lmms.io/",
-			img: lmmsIcon,
 			familiarity: 80,
 			performance: 60,
 		},
 		{
 			name: "PISKEL",
 			url: "https://www.piskelapp.com/",
-			img: godotIcon,
 			familiarity: 90,
 			performance: 80,
 		},
 		{
 			name: "GITHUB",
 			url: "https://github.com/",
-			img: githubIcon,
 			familiarity: 70,
 			performance: 90,
 		},
@@ -61,7 +56,6 @@ export default function technologies() {
 				{technologies.map((e, i) => <a href={e.url} target="_blank" rel="noreferrer" key={e.url}><div
 				className={style.element} style={{animationDuration: `${i - 1 * 0.5}s`}}>
 					<h1>{e.name}</h1>
-					<Image src={e.img} alt="icon" />
 					<p>familiarity</p>
 					<div>
 						<span style={{width: `${e.familiarity}%`}}></span>

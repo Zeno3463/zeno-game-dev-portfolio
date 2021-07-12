@@ -1,0 +1,36 @@
+.img {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  left: 40rem;
+  top: 5rem;
+  border: 1rem solid #267373;
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+  -webkit-animation: img-appear ease-in-out 1s forwards;
+          animation: img-appear ease-in-out 1s forwards;
+}
+
+.img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+@-webkit-keyframes img-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes img-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=About.module.css.map */

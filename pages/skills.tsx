@@ -33,7 +33,7 @@ export default function skills() {
 				<h1 className={template.title}>
 					MY SKILLS
 				</h1>
-				<p className={template.description}>
+				<p className={template.description} style={{width: "20rem"}}>
 					I am best at programming and 2d game design. 
 					I have some experience with pixel art. 
 					I can do sfx but I am not very confident with making 

@@ -1,5 +1,8 @@
 import React from 'react'
 import template from "../styles/Templates.module.css";
+import style from "../styles/About.module.css";
+import Image from "next/image";
+import profileIcon from "../public/ZenoDev.png";
 
 export default function about() {
 	return (
@@ -24,6 +27,9 @@ export default function about() {
 					Link to my discord account
 					</a> or message me at Zeno#3463
 				</p>
+			</div>
+			<div className={style.img} >
+				<Image src={profileIcon} />
 			</div>
 		</div>
 	)

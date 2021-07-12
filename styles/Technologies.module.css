@@ -17,7 +17,7 @@
 .list a .element {
   color: black;
   padding: 1rem;
-  background-color: #045159;
+  background-color: #267373;
   margin: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -36,17 +36,10 @@
 }
 
 .list a .element:hover {
-  background-color: #267373;
-  -webkit-box-shadow: 0px 0px 10px #000000;
-          box-shadow: 0px 0px 10px #000000;
+  -webkit-box-shadow: 0px 0px 50px #000000;
+          box-shadow: 0px 0px 50px #000000;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-}
-
-.list a .element img {
-  width: 5rem;
-  height: 5.6rem;
-  background-color: #045159;
 }
 
 .list a .element h1 {
