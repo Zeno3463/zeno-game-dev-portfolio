@@ -1,6 +1,5 @@
 import type { AppProps } from 'next/app'
 import "../styles/Styles.css"
-import { Nav } from "../components/Nav";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import NProgress from "nprogress";
@@ -20,7 +19,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Zeno Game Dev</title>
       </Head>
-      <Nav />
       <Component {...pageProps} /> 
     </div>  
   )

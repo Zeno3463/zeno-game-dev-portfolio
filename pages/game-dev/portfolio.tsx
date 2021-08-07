@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
-import template from "../styles/Templates.module.css";
-import style from "../styles/Portfolio.module.css";
+import template from "../../styles/Templates.module.css";
+import style from "../../styles/Portfolio.module.css";
 import Image from "next/image";
-import neonIcon from "../public/neon_icon.png";
-import NFTDIcon from "../public/never_fear_the_dark_icon.png";
-import polymersIcon from "../public/polymers_icon.png";
-import torchureIcon from "../public/torchure_icon.png";
-import zombyIcon from "../public/zomby_icon.png";
-import DPTGIcon from "../public/dont_play_this_game_icon.png";
+import neonIcon from "../../public/neon_icon.png";
+import NFTDIcon from "../../public/never_fear_the_dark_icon.png";
+import polymersIcon from "../../public/polymers_icon.png";
+import torchureIcon from "../../public/torchure_icon.png";
+import zombyIcon from "../../public/zomby_icon.png";
+import DPTGIcon from "../../public/dont_play_this_game_icon.png";
+import Link from "next/link";
 
 export default function portfolio() {
 
@@ -41,13 +42,14 @@ export default function portfolio() {
 	return (
 		<div>
 			<div className={template.header}>
+				<Link href="/skills">skills</Link>
 				<h1 className={template.title}>
 					MY PORTFOLIO
 				</h1>
 				<p className={template.description}>
 					A small gallery of recent projects chosen by me. 
 					Interested to see some more? Visit my
-					<a href="https://zenogamedev.itch.io/" target="_blank" rel="noreferrer"> itch.io</a> page.
+					<a className={template.link} href="https://zenogamedev.itch.io/" target="_blank" rel="noreferrer"> itch.io</a> page.
 				</p>
 			</div>
 			<div className={style.gameList}>

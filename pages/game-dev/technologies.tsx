@@ -1,13 +1,8 @@
 import React, { Component } from 'react'
-import template from "../styles/Templates.module.css";
-import style from "../styles/Technologies.module.css";
-import Image from "next/image";
-import godotIcon from "../public/godot_icon.png";
-import lmmsIcon from "../public/LMMS_logo.png";
-import githubIcon from "../public/github_icon.png";
+import template from "../../styles/Templates.module.css";
+import style from "../../styles/Technologies.module.css";
 
 export default function technologies() {
-
 	const technologies = [
 		{
 			name: "GODOT",

@@ -1,55 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Pridi:wght@200&display=swap");
-.nav {
-  position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  height: 100vh;
-  width: 6rem;
-  background-color: #267373;
-  -webkit-box-shadow: 1px 1px 5px 1px black;
-          box-shadow: 1px 1px 5px 1px black;
-  -webkit-animation: navbar-appear 5s ease-in-out forwards;
-          animation: navbar-appear 5s ease-in-out forwards;
-}
-
-.nav h1 {
-  font-family: 'Pridi', serif;
-  padding: 1.1rem;
-  width: 6rem;
-  font-size: 0.9rem;
-  -webkit-transition: all ease-in-out 100ms;
-  transition: all ease-in-out 100ms;
-}
-
-.nav h1:hover {
-  cursor: pointer;
-  -webkit-transform: rotate(5deg);
-          transform: rotate(5deg);
-  -webkit-box-shadow: 1px 1px 5px 1px black;
-          box-shadow: 1px 1px 5px 1px black;
-  background-color: #6CD9C5;
-}
-
 .header {
-  position: absolute;
-  top: 40vh;
-  margin-left: 10rem;
+  margin: 15% 10%;
 }
 
 .header .title {
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: 1000;
   margin: 0%;
 }
@@ -117,9 +72,30 @@
 .header .description {
   color: white;
   margin: 0%;
+  margin-bottom: 2%;
   font-family: 'Pridi', serif;
   -webkit-animation: description-appear 5s ease-in-out forwards;
           animation: description-appear 5s ease-in-out forwards;
+}
+
+.header a {
+  text-decoration: none;
+  background-color: #6CD9C5;
+  padding: 1%;
+  color: #045159;
+  -webkit-animation: button-appear 5s ease-in-out forwards;
+          animation: button-appear 5s ease-in-out forwards;
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+  border-radius: 15px;
+}
+
+.header a:hover {
+  -webkit-box-shadow: 3px 3px 5px black;
+          box-shadow: 3px 3px 5px black;
+  background-color: #045159;
+  color: #6CD9C5;
+  border-radius: 0px;
 }
 
 .triangles div {
@@ -131,8 +107,8 @@
 }
 
 .triangles .triangle1 {
-  top: 58vh;
-  left: 57vw;
+  top: 58%;
+  left: 57%;
   border-left: 10rem solid transparent;
   border-right: 10rem solid transparent;
   border-bottom: 15rem solid #6CD9C5;
@@ -142,8 +118,8 @@
 }
 
 .triangles .triangle2 {
-  top: 55vh;
-  left: 74vw;
+  top: 55%;
+  left: 74%;
   border-left: 10rem solid transparent;
   border-right: 10rem solid transparent;
   border-bottom: 16rem solid #267373;
@@ -153,8 +129,8 @@
 }
 
 .triangles .triangle3 {
-  top: 70vh;
-  left: 70vw;
+  top: 70%;
+  left: 70%;
   border-left: 7rem solid transparent;
   border-right: 7rem solid transparent;
   border-bottom: 10rem solid #4BA695;
@@ -167,8 +143,8 @@
   z-index: -1;
   border-radius: 50%;
   position: absolute;
-  -webkit-animation: stars-appear ease-in-out 5s forwards;
-          animation: stars-appear ease-in-out 5s forwards;
+  -webkit-animation: stars-appear ease-in-out 10s forwards;
+          animation: stars-appear ease-in-out 10s forwards;
 }
 
 @-webkit-keyframes navbar-appear {
@@ -230,6 +206,24 @@
   100% {
     opacity: 1;
     text-shadow: 3px 3px 5px black;
+  }
+}
+
+@-webkit-keyframes button-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes button-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 

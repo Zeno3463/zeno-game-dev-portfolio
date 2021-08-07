@@ -1,7 +1,5 @@
 .gameList {
-  position: absolute;
-  top: 10rem;
-  left: 10rem;
+  margin: -3% 13%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto;
@@ -12,10 +10,10 @@
 
 .gameList a {
   opacity: 0;
-  width: 20rem;
+  width: 80%;
   border: 5px solid #267373;
   background-color: #267373;
-  margin: 0.5rem;
+  margin: 4% -10%;
   -webkit-transition: all ease-in-out 200ms;
   transition: all ease-in-out 200ms;
   -webkit-animation: img-appear 1s ease-in-out forwards;

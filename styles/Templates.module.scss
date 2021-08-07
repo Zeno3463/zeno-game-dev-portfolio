@@ -1,8 +1,7 @@
 .header {
-	position: absolute;
-	top: 0;
-	margin: 3rem;
-	margin-left: 10rem;
+	margin: 4% 10%;
+	width: fit-content;
+	height: fit-content;
 	.title {
 		font-size: 4rem;
 		font-weight: 1000;
@@ -14,11 +13,31 @@
 	
 	.description {
 		color: white;
+		line-height: 25px;
 		margin: 0%;
+		margin-bottom: 5%;
 		font-family: 'Pridi', serif;
 		animation: description-appear 1s ease-in-out forwards;
-		a {
+		.link {
 			color: #6CD9C5;
+		}
+	}
+}
+
+.button {
+	a {
+		text-decoration: none;
+		background-color: #6CD9C5;
+		padding: 2%;
+		color: #045159;
+		animation: button-appear 1s ease-in-out forwards;
+		transition: all ease-in-out 200ms;
+		border-radius: 15px;
+		&:hover{
+			box-shadow: 3px 3px 5px black;
+			background-color: #045159;
+			color: #6CD9C5;
+			border-radius: 0px;
 		}
 	}
 }
@@ -52,3 +71,13 @@
 		color: #6CD9C5;
 	}
 }
+
+@keyframes button-appear {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+

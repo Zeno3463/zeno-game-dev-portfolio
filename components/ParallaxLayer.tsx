@@ -16,8 +16,8 @@ export default class ParallaxLayer extends Component<any, any> {
 			<div className={styles.stars} style={{
 				width: this.props.size,
 				height: this.props.size,
-				left: this.state.left * this.props.depth - this.props.offSetX,
-				top: this.state.top * this.props.depth - this.props.offSetY,
+				left: `${this.state.left * this.props.depth - this.props.offSetX}%`,
+				top: `${this.state.top * this.props.depth - this.props.offSetY}%`,
 			}}
 			></div>
 		)

@@ -4,31 +4,31 @@ import styles from "../styles/Home.module.css";
 export const ParallaxBackground = () => {
 	return (
 		<div className={styles.parallaxLayer}>
-			<ParallaxLayer depth={0.01} offSetX={-100} offSetY={-100} size={2} />
-			<ParallaxLayer depth={0.02} offSetX={-200} offSetY={-500} size={4} />
-			<ParallaxLayer depth={0.03} offSetX={-900} offSetY={-300} size={3} />
-			<ParallaxLayer depth={0.02} offSetX={-700} offSetY={-200} size={2} />
-			<ParallaxLayer depth={0.01} offSetX={-900} offSetY={-90} size={1} />
-			<ParallaxLayer depth={0.04} offSetX={-1000} offSetY={-120} size={5} />
-			<ParallaxLayer depth={0.01} offSetX={-1100} offSetY={-500} size={6} />
-			<ParallaxLayer depth={0.02} offSetX={-1200} offSetY={-550} size={3} />
-			<ParallaxLayer depth={0.01} offSetX={-1200} offSetY={-350} size={4} />
-			<ParallaxLayer depth={0.05} offSetX={-330} offSetY={-450} size={7} />
-			<ParallaxLayer depth={0.04} offSetX={-720} offSetY={-550} size={5} />
-			<ParallaxLayer depth={0.03} offSetX={-1020} offSetY={-550} size={9} />
-			<ParallaxLayer depth={0.02} offSetX={-520} offSetY={-120} size={4} />
-			<ParallaxLayer depth={0.03} offSetX={-420} offSetY={-520} size={3} />
-			<ParallaxLayer depth={0.02} offSetX={-20} offSetY={-420} size={8} />
-			<ParallaxLayer depth={0.05} offSetX={-20} offSetY={-20} size={1} />
-			<ParallaxLayer depth={0.01} offSetX={-50} offSetY={-50} size={2} />
-			<ParallaxLayer depth={0.05} offSetX={-150} offSetY={-100} size={5} />
-			<ParallaxLayer depth={0.03} offSetX={-300} offSetY={-200} size={7} />
-			<ParallaxLayer depth={0.02} offSetX={-100} offSetY={-400} size={5} />
-			<ParallaxLayer depth={0.05} offSetX={-200} offSetY={-400} size={4} />
-			<ParallaxLayer depth={0.02} offSetX={-500} offSetY={-500} size={5} />
-			<ParallaxLayer depth={0.03} offSetX={-400} offSetY={-50} size={6} />
-			<ParallaxLayer depth={0.05} offSetX={-800} offSetY={-60} size={5} />
-			<ParallaxLayer depth={0.02} offSetX={-650} offSetY={-300} size={5} />
+			<ParallaxLayer depth={0.01} offSetX={-10} offSetY={-90} size={2} />
+			<ParallaxLayer depth={0.02} offSetX={-20} offSetY={-50} size={4} />
+			<ParallaxLayer depth={0.03} offSetX={-90} offSetY={-30} size={3} />
+			<ParallaxLayer depth={0.02} offSetX={-70} offSetY={-60} size={2} />
+			<ParallaxLayer depth={0.01} offSetX={-90} offSetY={-90} size={1} />
+			<ParallaxLayer depth={0.04} offSetX={-10} offSetY={-82} size={5} />
+			<ParallaxLayer depth={0.01} offSetX={-11} offSetY={-50} size={6} />
+			<ParallaxLayer depth={0.02} offSetX={-12} offSetY={-85} size={3} />
+			<ParallaxLayer depth={0.01} offSetX={-12} offSetY={-75} size={4} />
+			<ParallaxLayer depth={0.05} offSetX={-33} offSetY={-65} size={7} />
+			<ParallaxLayer depth={0.04} offSetX={-72} offSetY={-55} size={5} />
+			<ParallaxLayer depth={0.03} offSetX={-10} offSetY={-55} size={9} />
+			<ParallaxLayer depth={0.02} offSetX={-52} offSetY={-82} size={4} />
+			<ParallaxLayer depth={0.03} offSetX={-42} offSetY={-52} size={3} />
+			<ParallaxLayer depth={0.02} offSetX={-2} offSetY={-82} size={8} />
+			<ParallaxLayer depth={0.05} offSetX={-2} offSetY={-60} size={1} />
+			<ParallaxLayer depth={0.01} offSetX={-5} offSetY={-5} size={2} />
+			<ParallaxLayer depth={0.05} offSetX={-15} offSetY={-80} size={5} />
+			<ParallaxLayer depth={0.03} offSetX={-30} offSetY={-20} size={7} />
+			<ParallaxLayer depth={0.02} offSetX={-10} offSetY={-40} size={5} />
+			<ParallaxLayer depth={0.05} offSetX={-20} offSetY={-40} size={4} />
+			<ParallaxLayer depth={0.02} offSetX={-50} offSetY={-50} size={5} />
+			<ParallaxLayer depth={0.03} offSetX={-40} offSetY={-5} size={6} />
+			<ParallaxLayer depth={0.05} offSetX={-80} offSetY={-6} size={5} />
+			<ParallaxLayer depth={0.02} offSetX={-65} offSetY={-30} size={5} />
 		</div>
 	)
 }
