@@ -3,6 +3,7 @@ import RadarChart from 'react-svg-radar-chart';
 import 'react-svg-radar-chart/build/css/index.css';
 import template from "../../styles/Templates.module.css";
 import style from "../../styles/Skills.module.css"
+import Link from 'next/link';
 
 export default function skills() {
 	const data = {
@@ -40,6 +41,9 @@ export default function skills() {
 					soundtracks. I have little to no experience with 3d 
 					art and 3d game design.
 				</p>
+				<div className={template.button}>
+					<Link href="/game-dev/technologies">Technologies I Use</Link>
+				</div>
 			</div>
 			<div className={style.chart}>
 				<RadarChart 

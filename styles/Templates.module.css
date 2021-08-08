@@ -33,6 +33,7 @@
 }
 
 .button a {
+  text-shadow: none;
   text-decoration: none;
   background-color: #6CD9C5;
   padding: 2%;

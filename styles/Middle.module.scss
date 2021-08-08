@@ -1,0 +1,32 @@
+.wrapper {
+	display: flex;
+	width: 100%;
+	margin-top: 10%;
+	justify-content: space-between;
+	align-items: stretch;
+	h2 {
+		color: #6CD9C5;
+		font-size: 250%;
+		margin: 0%;
+		margin-bottom: 5%;
+		animation: description-appear 1s ease-in-out forwards;
+		.link {
+			color: #6CD9C5;
+		}
+	}
+}
+
+.line {
+	background-color: #6CD9C5;
+	border: 1px solid #6CD9C5;
+	animation: description-appear 1s ease-in-out forwards;
+}
+
+@keyframes description-appear {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

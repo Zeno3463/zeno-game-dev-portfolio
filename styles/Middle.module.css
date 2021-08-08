@@ -1,0 +1,52 @@
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 10%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.wrapper h2 {
+  color: #6CD9C5;
+  font-size: 250%;
+  margin: 0%;
+  margin-bottom: 5%;
+  -webkit-animation: description-appear 1s ease-in-out forwards;
+          animation: description-appear 1s ease-in-out forwards;
+}
+
+.wrapper h2 .link {
+  color: #6CD9C5;
+}
+
+.line {
+  background-color: #6CD9C5;
+  border: 1px solid #6CD9C5;
+  -webkit-animation: description-appear 1s ease-in-out forwards;
+          animation: description-appear 1s ease-in-out forwards;
+}
+
+@-webkit-keyframes description-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes description-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=Middle.module.css.map */

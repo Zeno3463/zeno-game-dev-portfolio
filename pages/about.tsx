@@ -26,7 +26,7 @@ export default function about() {
 					</a> or message me at Zeno#3463
 				</p>
 				<div className={template.button}>
-					<Link href="/portfolio">GO TO MY PORTFOLIO</Link>
+					<Link href="/middle">Next</Link>
 				</div>
 			</div>
 			<div className={style.img} >

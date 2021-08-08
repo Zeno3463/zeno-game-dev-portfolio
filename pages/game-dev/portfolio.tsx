@@ -1,50 +1,15 @@
 import React, { useState } from 'react'
 import template from "../../styles/Templates.module.css";
 import style from "../../styles/Portfolio.module.css";
-import Image from "next/image";
-import neonIcon from "../../public/neon_icon.png";
-import NFTDIcon from "../../public/never_fear_the_dark_icon.png";
-import polymersIcon from "../../public/polymers_icon.png";
-import torchureIcon from "../../public/torchure_icon.png";
-import zombyIcon from "../../public/zomby_icon.png";
-import DPTGIcon from "../../public/dont_play_this_game_icon.png";
 import Link from "next/link";
 
 export default function portfolio() {
 
-	const games = [
-		{
-			img: neonIcon,
-			url: "https://zenogamedev.itch.io/geojam",
-		},
-		{
-			img: torchureIcon,
-			url: "https://zenogamedev.itch.io/gmtk-game-jam",
-		},
-		{
-			img: zombyIcon,
-			url: "https://zenogamedev.itch.io/zomby",
-		},
-		{
-			img: polymersIcon,
-			url: "https://zenogamedev.itch.io/polymers",
-		},
-		{
-			img: DPTGIcon,
-			url: "https://zenogamedev.itch.io/dont-play-this-game",
-		},
-		{
-			img: NFTDIcon,
-			url: "https://zenogamedev.itch.io/never-fear-the-dark",
-		},
-	];
-
 	return (
 		<div>
 			<div className={template.header}>
-				<Link href="/skills">skills</Link>
 				<h1 className={template.title}>
-					MY PORTFOLIO
+					MY GAME DEV PORTFOLIO
 				</h1>
 				<p className={template.description}>
 					A small gallery of recent projects chosen by me. 
@@ -53,11 +18,18 @@ export default function portfolio() {
 				</p>
 			</div>
 			<div className={style.gameList}>
-				{games.map((e, i) => 
-					<a href={e.url} target="_blank" rel="noreferrer" key={e.url} style={{animationDuration: `${i * 0.5+1}s`}}>
-						<Image src={e.img} alt="game img" className={style.img} />
-					</a>
-				)}
+				<iframe src="https://itch.io/embed/1128924?linkback=true&amp;bg_color=101010&amp;fg_color=ffffff&amp;link_color=fa5c5c&amp;border_color=3f3f3f" width="208" height="167"><a href="https://zenogamedev.itch.io/light">Light by Zeno</a></iframe>
+				<iframe src="https://itch.io/embed/963839?linkback=true&amp;bg_color=e3dfbf&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=b6b292" width="208" height="167"><a href="https://zenogamedev.itch.io/geojam">Neon by Zeno, tlucero</a></iframe>
+				<iframe src="https://itch.io/embed/764764?linkback=true&amp;bg_color=000000&amp;fg_color=858585&amp;link_color=fa5c5c" width="208" height="167"><a href="https://zenogamedev.itch.io/asteroids-meets-fruit-ninja">Asteroids Meets Fruit Ninja by Zeno</a></iframe>
+				<iframe src="https://itch.io/embed/1016607?linkback=true&amp;bg_color=1d0818&amp;fg_color=b7b642&amp;link_color=fa5c5c&amp;border_color=4c3747" width="208" height="167"><a href="https://zenogamedev.itch.io/never-fear-the-dark">Never Fear The Dark by Zeno</a></iframe>
+				<iframe src="https://itch.io/embed/830500?linkback=true&amp;bg_color=000000&amp;fg_color=e0e0e0&amp;link_color=fa5c5c&amp;border_color=333333" width="208" height="167"><a href="https://zenogamedev.itch.io/polymers">Polymers by Zeno</a></iframe>
+				<iframe src="https://itch.io/embed/1078150?linkback=true&amp;bg_color=4f377c&amp;fg_color=9b9cc6&amp;link_color=fa5c5c&amp;border_color=646098" width="208" height="167"><a href="https://zenogamedev.itch.io/gmtk-game-jam">Torchure by Zeno, Yzee, malek elsady</a></iframe>
+				<iframe src="https://itch.io/embed/896404?linkback=true&amp;bg_color=fee7b8&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=cfb889" width="208" height="167"><a href="https://zenogamedev.itch.io/zomby">Zomby by Zeno</a></iframe>
+			</div>
+			<div className={style.buttonContainer}>
+				<div className={template.button}>
+					<Link href="/game-dev/skills">My Skills</Link>
+				</div>
 			</div>
 		</div>
 	)

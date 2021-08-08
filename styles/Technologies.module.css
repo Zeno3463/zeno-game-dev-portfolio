@@ -1,7 +1,5 @@
 .list {
-  position: absolute;
-  left: 10rem;
-  top: 10rem;
+  margin: -3% 9%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto;

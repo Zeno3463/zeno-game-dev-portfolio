@@ -1,20 +1,22 @@
 .gameList {
-	margin: -3% 13%;
+	margin: -3% 9%;
 	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-template-rows: auto auto auto;
-	a{
+	iframe {
+		margin: 2%;
 		opacity: 0;
-		width: 80%;
 		border: 5px solid #267373;
-		background-color: #267373;
-		margin: 4% -10%;
 		transition: all ease-in-out 200ms;
 		animation: img-appear 1s ease-in-out forwards;
 		&:hover {
 			transform: scale(1.05) rotate(1deg);
 		}
 	}
+}
+
+.buttonContainer {
+	margin: 6% 9%;
 }
 
 @keyframes img-appear {
