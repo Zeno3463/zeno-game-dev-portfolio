@@ -47,7 +47,7 @@ export default function technologies() {
 		<div>
 			<div className={template.header}>
 				<h1 className={template.title}>
-					TECHNOLOGIES I USE
+					GAME TECHNOLOGIES I USE
 				</h1>
 				<p className={template.description}>
 					I am a hobbyist game developer. 

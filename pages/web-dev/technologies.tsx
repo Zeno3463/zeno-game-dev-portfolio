@@ -65,10 +65,10 @@ export default function technologies() {
 		<div>
 			<div className={template.header}>
 				<h1 className={template.title}>
-					TECHNOLOGIES I USE
+					WEB TECHNOLOGIES I USE
 				</h1>
 				<p className={template.description}>
-					I am a web game developer. 
+					I am a hobbyist web developer. 
 					Here’s a list of technologies I am familiar with.
 				</p>
 			</div>
