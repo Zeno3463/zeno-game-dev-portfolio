@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import template from "../../styles/Templates.module.css";
 import style from "../../styles/Technologies.module.css";
+import Link from 'next/link';
 
 export default function technologies() {
 	const technologies = [
@@ -67,7 +68,7 @@ export default function technologies() {
 					TECHNOLOGIES I USE
 				</h1>
 				<p className={template.description}>
-					I am a hobbyist game developer. 
+					I am a web game developer. 
 					Here’s a list of technologies I am familiar with.
 				</p>
 			</div>
@@ -84,6 +85,11 @@ export default function technologies() {
 						<span style={{width: `${e.performance}%`}}></span>
 					</div>
 				</div></a>) }
+			</div>
+			<div className={style.buttonContainer}>
+				<div className={template.button}>
+					<Link href="/end">Next</Link>
+				</div>
 			</div>
 		</div>
 	)

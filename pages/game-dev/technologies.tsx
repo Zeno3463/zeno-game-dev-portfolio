@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import template from "../../styles/Templates.module.css";
 import style from "../../styles/Technologies.module.css";
+import Link from 'next/link';
 
 export default function technologies() {
 	const technologies = [
@@ -20,7 +21,7 @@ export default function technologies() {
 			name: "LMMS",
 			url: "https://lmms.io/",
 			familiarity: 80,
-			performance: 60,
+			performance: 30,
 		},
 		{
 			name: "PISKEL",
@@ -33,6 +34,12 @@ export default function technologies() {
 			url: "https://github.com/",
 			familiarity: 70,
 			performance: 90,
+		},
+		{
+			name: "GIMP",
+			url: "https://www.gimp.org/",
+			familiarity: 70,
+			performance: 70,
 		},
 	]
 
@@ -60,6 +67,11 @@ export default function technologies() {
 						<span style={{width: `${e.performance}%`}}></span>
 					</div>
 				</div></a>) }
+			</div>
+			<div className={style.buttonContainer}>
+				<div className={template.button}>
+					<Link href="/end">Next</Link>
+				</div>
 			</div>
 		</div>
 	)

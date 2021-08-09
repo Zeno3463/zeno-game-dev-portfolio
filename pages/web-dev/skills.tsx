@@ -3,6 +3,7 @@ import RadarChart from 'react-svg-radar-chart';
 import 'react-svg-radar-chart/build/css/index.css';
 import template from "../../styles/Templates.module.css";
 import style from "../../styles/Skills.module.css"
+import Link from 'next/link';
 
 export default function skills() {
 	const data = {
@@ -12,6 +13,7 @@ export default function skills() {
 			noSqlDatabase: 0.9,
 			serverlessProgramming: 0.9,
 			UXorUI: 0.7,
+			Styling: 0.7,
 		},
 		meta: { color: '#267373' }
 	}
@@ -23,6 +25,7 @@ export default function skills() {
 		noSqlDatabase: 'no sql database',
 		serverlessProgramming: 'serverless programming',
 		UXorUI: 'UX/UI',
+		Styling: 'Styling'
 	};
 
 	return (
@@ -35,6 +38,11 @@ export default function skills() {
 					I am best at back end web development. I am ok at UX/UI design
 					and front end web development.
 				</p>
+				<div className={style.buttonContainer}>
+					<div className={template.button}>
+						<Link href="/web-dev/technologies">Next</Link>
+					</div>
+				</div>
 			</div>
 			<div className={style.chart}>
 				<RadarChart 

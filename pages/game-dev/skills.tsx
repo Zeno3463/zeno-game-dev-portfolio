@@ -41,8 +41,10 @@ export default function skills() {
 					soundtracks. I have little to no experience with 3d 
 					art and 3d game design.
 				</p>
-				<div className={template.button}>
-					<Link href="/game-dev/technologies">Technologies I Use</Link>
+				<div className={style.buttonContainer}>
+					<div className={template.button}>
+						<Link href="/game-dev/technologies">Next</Link>
+					</div>
 				</div>
 			</div>
 			<div className={style.chart}>

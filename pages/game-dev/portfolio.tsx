@@ -28,7 +28,7 @@ export default function portfolio() {
 			</div>
 			<div className={style.buttonContainer}>
 				<div className={template.button}>
-					<Link href="/game-dev/skills">My Skills</Link>
+					<Link href="/game-dev/skills">Next</Link>
 				</div>
 			</div>
 		</div>

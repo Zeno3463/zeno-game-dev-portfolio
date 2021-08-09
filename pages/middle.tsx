@@ -11,20 +11,22 @@ export default function middle() {
 				<div className={style.wrapper}>
 					<div className={style.containerLeft}>
 						<h2>
-							Continue With My
+							Continue With My <br /><br />
 							<div className={template.button}>
 								<Link href="/web-dev/portfolio">Web Dev</Link>
 							</div>
+							<br />
 							Journey
 						</h2>
 					</div>
 					<div className={style.line}></div>
 					<div className={style.containerRight}>
 						<h2>
-							Continue With My
+							Continue With My <br /><br />
 							<div className={template.button}>
 								<Link href="/game-dev/portfolio">Game Dev</Link>
 							</div>
+							<br />
 							Journey
 						</h2>
 					</div>

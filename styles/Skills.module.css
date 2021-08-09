@@ -43,6 +43,10 @@
   font-size: 0.8rem;
 }
 
+.buttonContainer a {
+  padding: 5%;
+}
+
 @-webkit-keyframes radar-graph-shape-appear {
   0% {
     -webkit-transform: scale(0);

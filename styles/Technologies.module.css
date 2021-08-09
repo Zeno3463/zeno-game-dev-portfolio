@@ -1,5 +1,6 @@
 .list {
   margin: -3% 9%;
+  width: 50%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto;
@@ -66,6 +67,10 @@
   margin: 0%;
   padding: 1px;
   background-color: #6CD9C5;
+}
+
+.buttonContainer {
+  margin: 6% 9%;
 }
 
 @-webkit-keyframes tech-appear {
