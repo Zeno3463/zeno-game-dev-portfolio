@@ -51,7 +51,7 @@ export default function technologies() {
 				</h1>
 				<p className={template.description}>
 					I am a hobbyist game developer. 
-					Here’s a list of technologies I am familiar with.
+					Here's a list of technologies I am familiar with.
 				</p>
 			</div>
 			<div className={style.list}>

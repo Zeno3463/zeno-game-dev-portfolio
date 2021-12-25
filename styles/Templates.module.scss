@@ -1,7 +1,6 @@
 .header {
-	margin: 4% 10%;
+	margin: 2rem 4rem;
 	width: fit-content;
-	height: fit-content;
 	.title {
 		font-size: 4rem;
 		font-weight: 1000;
@@ -13,10 +12,8 @@
 	
 	.description {
 		color: white;
-		line-height: 25px;
-		margin: 0%;
+		line-height: 1.6rem;
 		margin-bottom: 5%;
-		font-family: 'Pridi', serif;
 		animation: description-appear 1s ease-in-out forwards;
 		.link {
 			color: #6CD9C5;

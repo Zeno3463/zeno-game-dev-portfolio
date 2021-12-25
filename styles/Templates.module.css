@@ -1,11 +1,8 @@
 .header {
-  margin: 4% 10%;
+  margin: 2rem 4rem;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
 }
 
 .header .title {
@@ -20,10 +17,8 @@
 
 .header .description {
   color: white;
-  line-height: 25px;
-  margin: 0%;
+  line-height: 1.6rem;
   margin-bottom: 5%;
-  font-family: 'Pridi', serif;
   -webkit-animation: description-appear 1s ease-in-out forwards;
           animation: description-appear 1s ease-in-out forwards;
 }

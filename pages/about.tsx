@@ -2,7 +2,6 @@ import React from 'react'
 import template from "../styles/Templates.module.css";
 import style from "../styles/About.module.css";
 import Image from "next/image";
-import profileIcon from "../public/ZenoDev.png";
 import Link from "next/link";
 
 export default function about() {
@@ -12,7 +11,7 @@ export default function about() {
 				<h1 className={template.title}>
 					ABOUT ME
 				</h1>
-				<p className={template.description} style={{width: "30%"}}>
+				<p className={template.description} style={{width: "23rem"}}>
 					<br />
 					Hi! You can call me Zeno. I am a hobbyist game developer,
 					a hobbyist web developer, and a full time student.
@@ -26,12 +25,14 @@ export default function about() {
 					</a> or message me at Zeno#3463
 				</p>
 				<div className={template.button}>
-					<Link href="/middle">Next</Link>
+					<Link href="/skills">My Skills</Link>
 				</div>
 			</div>
+			{typeof window !== 'undefined' && window.innerWidth > 768 ?
 			<div className={style.img} >
-				<Image src={profileIcon} />
-			</div>
+				<Image src="https://avatars.githubusercontent.com/u/72646855?v=4" layout='fill' />
+			</div> 
+			: null}
 		</div>
 	)
 }

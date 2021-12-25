@@ -8,4 +8,10 @@ body {
   margin: 0%;
   background-color: #045159;
 }
+
+@media all and (max-width: 768px) {
+  body {
+    overflow-x: scroll;
+  }
+}
 /*# sourceMappingURL=Styles.css.map */

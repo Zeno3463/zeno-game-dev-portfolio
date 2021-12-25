@@ -1,48 +1,44 @@
-.chart {
-	position: absolute;
-	left: 40rem;
-	top: 5rem;
-	padding: 2rem;
-	animation: radar-graph-shape-appear ease-in-out 3s forwards;
-}
-
-.axis {
-	stroke: black;
-	opacity: 0.7;
-}
-
-.scale {
-	stroke: black;
-	opacity: 0.7;
-}
-
-.shape {
-	fill-opacity: 0.6;
-	stroke: black;
-	transform: scale(0);
-	animation: radar-graph-shape-appear ease-in-out 3s forwards;
-	animation-delay: 2s;
-	&:hover {
-		fill-opacity: 0.8;
-	}
-}
-
-.caption {
-	font-size: 0.6rem;
-	stroke: #8cb9b9;
-	transition: all ease-in-out 100ms;
-	&:hover {
-		font-size: 0.8rem;
+.grid {
+	margin: 1rem 0%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto;
+	div {
+		h3, h2 {
+			text-shadow: 0 5px 10px rgba(0, 0, 0, 0.75);
+			color: #6CD9C5;
+		}
+		h3 { font-size: 1rem; }
+		h2 { font-size: 2rem; }
+		width: fit-content;
+		border-radius: 10px;
+		animation: skill-appear ease-in-out 200ms forwards;
+		background-color: #267373;
+		margin-right: 3rem;
+		margin-bottom: 3rem;
+		padding: 1rem;
+		transition: all ease-in-out 200ms;
+		&:hover {
+			box-shadow: 0px 0px 50px #000000;
+			transform: scale(1.1);
+		}
+		ul {
+			list-style: none;
+		}
 	}
 }
 
 .buttonContainer {
 	a{
-		padding: 5%;
+		padding: 1rem;
 	}
 }
 
-@keyframes radar-graph-shape-appear {
-	0% { transform: scale(0) }
-	100% { transform: scale(1) }
+@keyframes skill-appear {
+	0% { 
+		opacity: 0;
+	}
+	100% { 
+		opacity: 1;
+	}
 }
