@@ -1,21 +1,22 @@
-.gameList {
-	margin: -3% 9%;
-	display: grid;
-	grid-template-columns: auto auto auto;
-	grid-template-rows: auto auto auto;
-	a {
-		text-decoration: none;
+.container {
+	h2 {
+		margin: 0rem 4rem;
+		text-shadow: 0 5px 10px rgba(0, 0, 0, 0.75);
 		color: #6CD9C5;
 	}
-	iframe, h1 {
-		padding: 2%;
-		margin: 2%;
-		opacity: 0;
-		border: 5px solid #267373;
+}
+
+.portfolioContainer {
+	margin: 2rem 3.5rem;
+	display: flex;
+	overflow-x: scroll;
+	iframe {
+		margin: 1rem;
+		border: none;
 		transition: all ease-in-out 200ms;
-		animation: img-appear 1s ease-in-out forwards;
 		&:hover {
-			transform: scale(1.05) rotate(1deg);
+			transform: scale(1.05) rotate(5deg);
+			box-shadow: 3px 3px 5px black;
 		}
 	}
 }

@@ -66,7 +66,7 @@ export default function skills() {
 				</div>
 				<div className={style.buttonContainer}>
 					<div className={template.button}>
-						<Link href="/game-dev/technologies">Next</Link>
+						<Link href="/portfolio">Next</Link>
 					</div>
 				</div>
 			</div>

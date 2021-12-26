@@ -1,0 +1,56 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 10.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #267373;
+  border-radius: 0px 30px 0px 0px;
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+}
+
+.container:hover {
+  -webkit-box-shadow: 3px 3px 5px #000000;
+          box-shadow: 3px 3px 5px #000000;
+  -webkit-transform: scale(1.05) rotate(5deg);
+          transform: scale(1.05) rotate(5deg);
+}
+
+.container h3 {
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.75);
+  color: #6CD9C5;
+}
+
+.container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container div a {
+  color: #267373;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: #6CD9C5;
+  padding: 0.5rem;
+  border-radius: 0px 10px 0px 0px;
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+}
+
+.container div a:hover {
+  border-radius: 0%;
+}
+/*# sourceMappingURL=PortfolioProjectTemplate.module.css.map */

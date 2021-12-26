@@ -73,7 +73,6 @@
   color: white;
   margin: 0%;
   margin-bottom: 2%;
-  font-family: 'Pridi', serif;
   -webkit-animation: description-appear 5s ease-in-out forwards;
           animation: description-appear 5s ease-in-out forwards;
 }
