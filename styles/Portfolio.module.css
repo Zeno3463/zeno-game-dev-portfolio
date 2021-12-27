@@ -13,6 +13,7 @@
 }
 
 .portfolioContainer iframe {
+  z-index: 1;
   margin: 1rem;
   border: none;
   -webkit-transition: all ease-in-out 200ms;

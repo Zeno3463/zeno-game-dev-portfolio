@@ -18,6 +18,6 @@ export default function Home() {
 			</div>
       <ParallaxTriangles />
       <ParallaxBackground />
-    </div>  
+    </div>
   )
 }

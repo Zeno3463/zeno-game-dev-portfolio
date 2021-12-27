@@ -2,6 +2,7 @@ import React from 'react'
 import template from "../styles/Templates.module.css";
 import style from "../styles/Skills.module.css"
 import Link from 'next/link';
+import Particles from 'react-tsparticles';
 
 export default function skills() {
 	const skills = [
@@ -47,6 +48,66 @@ export default function skills() {
 
 	return (
 		<div>
+			<Particles
+				className={template.particles}
+				options={{
+					fpsLimit: 60,
+					interactivity: {
+						events: {
+							onHover: {
+								enable: true,
+								mode: "bubble",
+							}
+						},
+						modes: {
+							bubble: {
+								distance: 400,
+								duration: 2,
+								opacity: 0.5,
+								size: 10,
+							},
+							push: {
+								quantity: 4,
+							},
+							repulse: {
+								distance: 200,
+								duration: 0.4,
+							},
+						},
+					},
+					particles: {
+						color: {
+							value: "#ffffff",
+						},
+						move: {
+							direction: "none",
+							enable: true,
+							outMode: "bounce",
+							random: false,
+							speed: 1,
+							straight: false,
+						},
+						number: {
+							density: {
+								enable: true,
+								area: 800,
+							},
+							value: 80,
+						},
+						opacity: {
+							value: 0.2,
+						},
+						shape: {
+							type: "circle",
+						},
+						size: {
+							random: true,
+							value: 5,
+						},
+					},
+					detectRetina: true,
+				}}
+			/>
 			<div className={template.header}>
 				<h1 className={template.title}>
 					MY SKILLS

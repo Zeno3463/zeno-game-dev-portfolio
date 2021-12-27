@@ -40,6 +40,10 @@
 	}
 }
 
+.particles {
+	animation: button-appear 4s ease-in-out forwards;
+}
+
 @keyframes description-appear {
 	0% {
 		opacity: 0;

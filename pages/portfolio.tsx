@@ -3,11 +3,72 @@ import template from "../styles/Templates.module.css";
 import style from "../styles/Portfolio.module.css";
 import Link from "next/link";
 import PortfolioProjectTemplate from '../components/PortfolioProjectTemplate';
+import Particles from 'react-tsparticles';
 
 export default function portfolio() {
 	
 	return (
 		<div className={style.container}>
+			<Particles
+				className={template.particles}
+				options={{
+					fpsLimit: 60,
+					interactivity: {
+						events: {
+							onHover: {
+								enable: true,
+								mode: "grab"
+							}
+						},
+						modes: {
+							bubble: {
+								distance: 400,
+								duration: 2,
+								opacity: 0.8,
+								size: 40,
+							},
+							push: {
+								quantity: 4,
+							},
+							repulse: {
+								distance: 200,
+								duration: 0.4,
+							},
+						},
+					},
+					particles: {
+						color: {
+							value: "#ffffff",
+						},
+						move: {
+							direction: "none",
+							enable: true,
+							outMode: "bounce",
+							random: false,
+							speed: 1,
+							straight: false,
+						},
+						number: {
+							density: {
+								enable: true,
+								area: 800,
+							},
+							value: 80,
+						},
+						opacity: {
+							value: 0.2,
+						},
+						shape: {
+							type: "circle",
+						},
+						size: {
+							random: true,
+							value: 5,
+						},
+					},
+					detectRetina: true,
+				}}
+			/>
 			<div className={template.header}>
 				<h1 className={template.title}>
 					MY PORTFOLIO
@@ -36,13 +97,13 @@ export default function portfolio() {
 			<h2>My Web Projects</h2>
 			<div className={style.portfolioContainer}>
 				<PortfolioProjectTemplate title="Noted" description="a note taking app built using react.js and firebase" url="https://noted-app-0.web.app/" githubRepo="https://github.com/Zeno3463/noted-app" />
-				<PortfolioProjectTemplate title="Multiplayer Chess" description="an online chess platform built using react.js and flask" githubRepo="https://github.com/Zeno3463/multiplayer-chess" />
+				<PortfolioProjectTemplate title="Multiplayer Chess" description="an online chess platform built using react.js, flask, and socket.io" githubRepo="https://github.com/Zeno3463/multiplayer-chess" />
 				<PortfolioProjectTemplate title="Whiteboard.fi Clone" description="a multi-user whiteboard sharing platform built using next.js, express.js, and socket.io" githubRepo="https://github.com/Zeno3463/whiteboard.fi-clone" />
 				<PortfolioProjectTemplate title="Url Shortener" description="it does exactly what you think it does. Made using next.js and express.js" githubRepo="https://github.com/Zeno3463/url-shorterner" />
 			</div>
 			<div className={style.buttonContainer}>
 				<div className={template.button}>
-					<Link href="/skills">My Skills</Link>
+					<Link href="/end">Contact Me</Link>
 				</div>
 			</div>
 		</div>

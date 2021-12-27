@@ -48,6 +48,11 @@
   border-radius: 0px;
 }
 
+.particles {
+  -webkit-animation: button-appear 4s ease-in-out forwards;
+          animation: button-appear 4s ease-in-out forwards;
+}
+
 @-webkit-keyframes description-appear {
   0% {
     opacity: 0;
