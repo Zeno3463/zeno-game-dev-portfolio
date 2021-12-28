@@ -91,7 +91,7 @@ export default function about() {
 			</div>
 			{typeof window !== 'undefined' && window.innerWidth > 768 ?
 			<div className={style.img} >
-				<Image src="https://avatars.githubusercontent.com/u/72646855?v=4" layout='fill' />
+				<Image src="https://avatars.githubusercontent.com/u/72646855?v=4" alt='Profile Pic' layout='fill' />
 			</div> 
 			: null}
 		</div>

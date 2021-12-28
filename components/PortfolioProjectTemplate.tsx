@@ -9,7 +9,7 @@ const PortfolioProjectTemplate = ({title, description, url, githubRepo}: any) =>
 			<p>{description}</p>
 			<div>
 				{url !== undefined ? <a href={url} target="_blank">Visit</a> : null}
-				<a href={githubRepo} target="_blank">Github</a>
+				<a href={githubRepo} target="_blank" rel='noreferrer'>Github</a>
 			</div>
 		</div>
 	)

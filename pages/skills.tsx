@@ -114,12 +114,12 @@ export default function skills() {
 				</h1>
 				<div className={style.grid}>
 					{skills.map((skill, index) => 
-					<div style={{animationDuration: `${index - 1 * 0.5}s`}}>
+					<div key={index} style={{animationDuration: `${index - 1 * 0.5}s`}}>
 						<h2>{skill.name}</h2>
 						<p>{skill.description}</p>
 						<h3>Tools and Technologies</h3>
 						<ul>
-							{skill.tools.map((tool, index) => <li>
+							{skill.tools.map((tool, index) => <li key={index}>
 								{tool}
 							</li>)}
 						</ul>
