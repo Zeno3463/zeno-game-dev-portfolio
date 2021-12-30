@@ -101,6 +101,10 @@ export default function portfolio() {
 				<PortfolioProjectTemplate title="Whiteboard.fi Clone" description="a multi-user whiteboard sharing platform built using next.js, express.js, and socket.io" githubRepo="https://github.com/Zeno3463/whiteboard.fi-clone" />
 				<PortfolioProjectTemplate title="Url Shortener" description="it does exactly what you think it does. Made using next.js and express.js" githubRepo="https://github.com/Zeno3463/url-shorterner" />
 			</div>
+			<h2>My Other Projects</h2>
+			<div className={style.portfolioContainer}>
+				<PortfolioProjectTemplate title="20 Second Rule Monitor" description="a chrome extension to prevent procrastination using the 20 second rule" githubRepo="https://github.com/Zeno3463/20-second-rule-monitor" />
+			</div>
 			<div className={style.buttonContainer}>
 				<div className={template.button}>
 					<Link href="/end">Contact Me</Link>

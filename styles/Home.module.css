@@ -15,58 +15,23 @@
   color: #045159;
   text-shadow: none;
   display: inline-block;
-  -webkit-animation: text-move 3s ease-in-out forwards;
-          animation: text-move 3s ease-in-out forwards;
+  -webkit-animation: text-move 2s ease-in-out forwards;
+          animation: text-move 2s ease-in-out forwards;
 }
 
 .header .title span:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.header .title span:nth-child(3) {
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
 }
 
-.header .title span:nth-child(3) {
-  -webkit-animation-delay: 1.0s;
-          animation-delay: 1.0s;
-}
-
 .header .title span:nth-child(4) {
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
-}
-
-.header .title span:nth-child(5) {
-  -webkit-animation-delay: 2.0s;
-          animation-delay: 2.0s;
-}
-
-.header .title span:nth-child(6) {
-  -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
-}
-
-.header .title span:nth-child(7) {
-  -webkit-animation-delay: 3.0s;
-          animation-delay: 3.0s;
-}
-
-.header .title span:nth-child(8) {
-  -webkit-animation-delay: 3.5s;
-          animation-delay: 3.5s;
-}
-
-.header .title span:nth-child(9) {
-  -webkit-animation-delay: 4.0s;
-          animation-delay: 4.0s;
-}
-
-.header .title span:nth-child(10) {
-  -webkit-animation-delay: 4.5s;
-          animation-delay: 4.5s;
-}
-
-.header .title span:nth-child(11) {
-  -webkit-animation-delay: 5.0s;
-          animation-delay: 5.0s;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
 }
 
 .header .description {
