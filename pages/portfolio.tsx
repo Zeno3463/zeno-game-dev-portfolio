@@ -94,6 +94,7 @@ export default function portfolio() {
 			<h2>My Blockchain/Web 3.0 Projects</h2>
 			<div className={style.portfolioContainer}>
 				<PortfolioProjectTemplate title="Web 3.0 Twitter Clone" description="A twitter clone built using next.js, moralis.io, and tailwindcss." url="https://web3-0-twitter-clone.vercel.app/" githubRepo="https://github.com/Zeno3463/web3.0-twitter-clone" />
+				<PortfolioProjectTemplate title="Blockchain To Do List" description="A basic to do list website built using hardhat, next.js, and tailwindcss." githubRepo="https://github.com/Zeno3463/blockchain-to-do-list" />
 			</div>
 			<h2>My Web Projects</h2>
 			<div className={style.portfolioContainer}>
@@ -105,6 +106,7 @@ export default function portfolio() {
 			<h2>My Other Projects</h2>
 			<div className={style.portfolioContainer}>
 				<PortfolioProjectTemplate title="20 Second Rule Monitor" description="a chrome extension to prevent procrastination using the 20 second rule" githubRepo="https://github.com/Zeno3463/20-second-rule-monitor" />
+				<PortfolioProjectTemplate title="Virtual Mouse" description="a tool that helps you control your mouse by tracking your hand movements. Built using python with opencv." githubRepo="https://github.com/Zeno3463/virtual-mouse" />
 			</div>
 			<div className={style.buttonContainer}>
 				<div className={template.button}>

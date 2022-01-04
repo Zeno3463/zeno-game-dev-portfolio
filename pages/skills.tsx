@@ -11,6 +11,7 @@ export default function skills() {
 			description: "I am fascinated with the concept of smart contracts and decentralized applications.",
 			tools: [
 				"Solidity",
+				"Remix",
 				"Hardhat",
 				"Ethereum",
 				"Metamask",
