@@ -98,10 +98,7 @@ export default function portfolio() {
 			</div>
 			<h2>My Web Projects</h2>
 			<div className={style.portfolioContainer}>
-				<PortfolioProjectTemplate title="Noted" description="a note taking app built using react.js and firebase" url="https://noted-app-0.web.app/" githubRepo="https://github.com/Zeno3463/noted-app" />
-				<PortfolioProjectTemplate title="Multiplayer Chess" description="an online chess platform built using react.js, flask, and socket.io" githubRepo="https://github.com/Zeno3463/multiplayer-chess" />
 				<PortfolioProjectTemplate title="Whiteboard.fi Clone" description="a multi-user whiteboard sharing platform built using next.js, express.js, and socket.io" githubRepo="https://github.com/Zeno3463/whiteboard.fi-clone" />
-				<PortfolioProjectTemplate title="Url Shortener" description="it does exactly what you think it does. Made using next.js and express.js" githubRepo="https://github.com/Zeno3463/url-shorterner" />
 			</div>
 			<h2>My Other Projects</h2>
 			<div className={style.portfolioContainer}>
