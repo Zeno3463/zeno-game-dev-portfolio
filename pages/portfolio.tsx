@@ -99,6 +99,7 @@ export default function portfolio() {
 			<h2>My Web Projects</h2>
 			<div className={style.portfolioContainer}>
 				<PortfolioProjectTemplate title="Whiteboard.fi Clone" description="a multi-user whiteboard sharing platform built using next.js, express.js, and socket.io" githubRepo="https://github.com/Zeno3463/whiteboard.fi-clone" />
+				<PortfolioProjectTemplate title="I Can Do It" description="a website/API that generates random motivational content" githubRepo="https://github.com/Zeno3463/i-can-do-it" url="https://i-can-do-it.vercel.app/" />
 			</div>
 			<h2>My Other Projects</h2>
 			<div className={style.portfolioContainer}>
