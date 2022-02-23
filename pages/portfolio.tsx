@@ -98,14 +98,19 @@ export default function portfolio() {
 			</div>
 			<h2>My Web Projects</h2>
 			<div className={style.portfolioContainer}>
+				<PortfolioProjectTemplate title="Zeno Blog" description="a personal blog website built using next.js, mongodb, and tailwindcss" githubRepo="https://github.com/Zeno3463/zeno-blog" url="https://zeno-blog.vercel.app/" />
 				<PortfolioProjectTemplate title="Whiteboard.fi Clone" description="a multi-user whiteboard sharing platform built using next.js, express.js, and socket.io" githubRepo="https://github.com/Zeno3463/whiteboard.fi-clone" />
 				<PortfolioProjectTemplate title="I Can Do It" description="a website/API that generates random motivational content" githubRepo="https://github.com/Zeno3463/i-can-do-it" url="https://i-can-do-it.vercel.app/" />
-				<PortfolioProjectTemplate title="Zeno Blog" description="a personal blog website built using next.js, mongodb, and tailwindcss" githubRepo="https://github.com/Zeno3463/zeno-blog" url="https://zeno-blog.vercel.app/" />
 			</div>
 			<h2>My Other Projects</h2>
 			<div className={style.portfolioContainer}>
 				<PortfolioProjectTemplate title="20 Second Rule Monitor" description="a chrome extension to prevent procrastination using the 20 second rule" githubRepo="https://github.com/Zeno3463/20-second-rule-monitor" />
 				<PortfolioProjectTemplate title="Virtual Mouse" description="a tool that helps you control your mouse by tracking your hand movements. Built using python with opencv." githubRepo="https://github.com/Zeno3463/virtual-mouse" />
+			</div>
+			<h2>My Blogs</h2>
+			<div className={style.portfolioContainer}>
+				<PortfolioProjectTemplate title="How To Learn Blockchain As A Beginner" url="https://zeno-blog.vercel.app/7a3bd4f1-e43c-467c-91e4-97cb69cd5669" />
+				<PortfolioProjectTemplate title="Why Web 3.0?" url="https://zeno-blog.vercel.app/109883f7-d1bb-450b-b7c4-7f4701ebb303" />
 			</div>
 			<div className={style.buttonContainer}>
 				<div className={template.button}>
