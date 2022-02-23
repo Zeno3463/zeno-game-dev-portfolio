@@ -84,6 +84,10 @@ export default function about() {
 					I am active on discord. You can find me there! <a className={template.link} href="https://discord.com/users/715474608152772648/" target="_blank" rel="noreferrer">
 					Link to my discord account
 					</a> or message me at Zeno#3463
+					<br /><br />
+					I am on twitter too! <a className={template.link} href="https://twitter.com/zeno3463" target="_blank" rel="noreferrer">
+					Link to my twitter account
+					</a>
 				</p>
 				<div className={template.button}>
 					<Link href="/skills">My Skills</Link>

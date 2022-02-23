@@ -74,9 +74,11 @@ export default function end() {
 					<br />
 					Thank you so much for your time!
 					<br /><br />
-					If you want to contact me, you can find me in discord! <a className={template.link} href="https://discord.com/users/715474608152772648/" target="_blank" rel="noreferrer">
-					Link to my discord account
-					</a> or message me at Zeno#3463
+					If you want to contact me, you can find me in <a className={template.link} href="https://discord.com/users/715474608152772648/" target="_blank" rel="noreferrer">
+					discord
+					</a> or <a className={template.link} href="https://twitter.com/zeno3463" target="_blank" rel="noreferrer">
+					twitter
+					</a>!
 					<br /><br />
 					Once again, thank you so much for visiting this website. Have a nice day!
 				</p>
