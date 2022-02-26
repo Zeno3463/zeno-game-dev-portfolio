@@ -98,6 +98,7 @@ export default function portfolio() {
 			</div>
 			<h2>My Web Projects</h2>
 			<div className={style.portfolioContainer}>
+				<PortfolioProjectTemplate title="Wordle With A Twist" description="wordle clone with a twist in game play" githubRepo="https://github.com/Zeno3463/wordle-with-a-twist" url="https://wordle-with-a-twist.netlify.app/" />
 				<PortfolioProjectTemplate title="Zeno Blog" description="a personal blog website built using next.js, mongodb, and tailwindcss" githubRepo="https://github.com/Zeno3463/zeno-blog" url="https://zeno-blog.vercel.app/" />
 				<PortfolioProjectTemplate title="Whiteboard.fi Clone" description="a multi-user whiteboard sharing platform built using next.js, express.js, and socket.io" githubRepo="https://github.com/Zeno3463/whiteboard.fi-clone" />
 				<PortfolioProjectTemplate title="I Can Do It" description="a website/API that generates random motivational content" githubRepo="https://github.com/Zeno3463/i-can-do-it" url="https://i-can-do-it.vercel.app/" />
