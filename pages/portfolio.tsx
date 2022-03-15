@@ -94,6 +94,7 @@ export default function portfolio() {
 			<h2>My Blockchain/Web 3.0 Projects</h2>
 			<div className={style.portfolioContainer}>
 				<PortfolioProjectTemplate title="Web 3.0 Twitter Clone" description="A twitter clone built using next.js, moralis.io, and tailwindcss." url="https://web3-0-twitter-clone.vercel.app/" githubRepo="https://github.com/Zeno3463/web3.0-twitter-clone" />
+				<PortfolioProjectTemplate title="Ether Donate" description="A donation website with ethereum as its currency" url="https://ether-donate.vercel.app/" githubRepo="https://github.com/Zeno3463/ether-donate" />
 				<PortfolioProjectTemplate title="Blockchain To Do List" description="A basic to do list website built using hardhat, next.js, and tailwindcss." githubRepo="https://github.com/Zeno3463/blockchain-to-do-list" />
 			</div>
 			<h2>My Web Projects</h2>
